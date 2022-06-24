@@ -1,0 +1,21 @@
+.brands {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.brandBox {
+  display: flex;
+  flex: 0 0 auto;
+  margin: 25px;
+}
+
+@media (max-width: 767px) {
+  .brands {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+}

@@ -11,6 +11,7 @@ export default function ThaisMartins() {
       alignItems="center"
       justifyContent="center"
       marginTop="100px"
+      id="sobre"
     >
       <Box
         flexBasis="60%"
@@ -23,7 +24,7 @@ export default function ThaisMartins() {
         <Heading marginBottom="15px" color="brandText.400">
           Thais Martins
         </Heading>
-        <Text color="brandText.200">
+        <Text color="brandText.200" margin="5">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
           facilisis euismod erat quis feugiat. Suspendisse nec risus ami
           fermentum varius eu eget neque. Aliquam non varius nulla, ut auctor
@@ -51,12 +52,7 @@ export default function ThaisMartins() {
         alignItems="center"
         justifyContent="center"
       >
-        <Lottie
-          loop
-          animationData={Thais}
-          play
-          style={{ width: '40%', height: 'auto' }}
-        />
+        <Lottie loop animationData={Thais} play style={{ width: '60%' }} />
       </Box>
     </Box>
   );

@@ -6,7 +6,6 @@ import {
   FormLabel,
   Input,
   Link,
-  Select,
   Text,
   Textarea,
 } from '@chakra-ui/react';
@@ -27,16 +26,11 @@ export default function Contact() {
   const isError = {
     name: isClicked?.name ? input?.name?.length < 3 : false,
     msg: isClicked?.msg ? input?.msg?.length < 10 : false,
-    plan: isClicked?.plan ? input?.plan?.length < 3 : false,
   };
 
-  const dynamicLink = `https://api.whatsapp.com/send?phone=+330749303048&text=Olá%2C vim pelo seu site e estou interessado no curso de química.%0AMe chamo ${
+  const dynamicLink = `https://api.whatsapp.com/send?phone=+34697899495&text=Olá%2C vim pelo seu site e estou interessado nos seus serviços.%0AMe chamo ${
     input?.name
-  }.${!!input?.msg ? `%0A%0A${encodeURI(input.msg)}%0A` : ''}${
-    !!input?.plan
-      ? `%0AGostaria de adquirir o plano referente a ${input?.plan}`
-      : ''
-  }`;
+  }.${!!input?.msg ? `%0A%0A${encodeURI(input.msg)}%0A` : ''}`;
 
   function handleSendMsg() {
     if (input?.name?.length <= 3) return;
@@ -47,17 +41,13 @@ export default function Contact() {
     <Box minHeight="50vh" id="contato" margin="100px">
       <Box textAlign="center" padding="12px 0" marginBottom="32px">
         <Text as="h2" textAlign="center" fontSize="3xl">
-          Fale comigo
+          Entre em contato!
         </Text>
         <Text as="p" margin="8px 0 16px" textAlign="center">
-          Se preferir entrar em contato via email ou telefone:
+          Se preferir entrar em contato via email:
           <br />
-          <Link color="brand.400" href="mailto:contato@gomesquimica.com.br">
-            contato@gomesquimica.com.br
-          </Link>
-          <br />
-          <Link href="https://api.whatsapp.com/send?phone=+330749303048&text=Olá%2C vim pelo seu site e estou interessado em adquirir um plano">
-            + 33 07 49 30 30 48
+          <Link href="mailto:thaisinha.ib@gmail.com">
+            thaisinha.ib@gmail.com
           </Link>
         </Text>
       </Box>
@@ -82,7 +72,7 @@ export default function Contact() {
               <FormErrorMessage>Nome é obrigatório.</FormErrorMessage>
             )}
           </FormControl>
-          <FormControl margin="12px 0" isInvalid={isError?.msg}>
+          <FormControl margin="12px 0" isInvalid={isError?.msg} isRequired>
             <FormLabel htmlFor="msg">Mensagem</FormLabel>
             <Textarea
               id="msg"
@@ -92,32 +82,14 @@ export default function Contact() {
               size="sm"
             />
           </FormControl>
-          <FormControl isInvalid={isError?.plan}>
-            <FormLabel htmlFor="plan">Plano</FormLabel>
-            <Select id="plan" placeholder="Selecione o plano de interesse">
-              <option value="ingles">Aulas de Inglês</option>
-              <option value="espanhol">Aulas de Espanhol</option>
-              <option value="portugues">
-                Aulas de Português para estrangeiros
-              </option>
-              <option value="traducao">Tradução não-juramentada</option>
-              <option value="interpretacao">
-                Interpretação de conferências e reuniões
-              </option>
-              <option value="escrita">Escrita Acadêmica</option>
-              <option value="treinamentos">
-                Treinamentos metodológicos para professores
-              </option>
-            </Select>
-          </FormControl>
           <Box display="flex" justifyContent="center" marginTop="24px">
             <Button
-              width="100px"
-              color="brandText.100"
+              width="220px"
+              color="white"
               colorScheme="whatsapp"
               onClick={handleSendMsg}
             >
-              Enviar
+              Enviar para o Whatsapp!
             </Button>
           </Box>
         </Box>

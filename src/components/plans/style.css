@@ -1,0 +1,58 @@
+.boxContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 90px 0 50px 0;
+}
+
+.boxWrapper {
+  align-items: stretch;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.masterBox {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.boxes {
+  flex: 1 1 auto;
+  padding: 60px 30px;
+  margin: 15px;
+  text-align: center;
+  box-shadow: 0 0 48px rgba(0, 0, 0, 0.15);
+  border-radius: 25px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.boxesIcon {
+  font-size: 40px;
+  height: 64px;
+  width: 64px;
+  margin: auto;
+  background-color: #25d366;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  color: #ffffff;
+}
+
+.boxesSubTitle {
+  font-size: 22px;
+  text-align: center;
+  margin: 15px 0 15px 0;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  color: #070024;
+}
+
+.boxesParagraph {
+  font-weight: 500;
+  overflow-wrap: break-word;
+  white-space: normal;
+  color: #625a71;
+}

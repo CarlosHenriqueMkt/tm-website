@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+.logoContainer {
+  width: 50px;
+}
+
+.LogoContainer img {
+  width: 100%;
+}
+
+.navMenu {
+  display: none;
+  gap: 24px;
+}
+.navLink {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media (min-width: 48em) {
+  .navMenu {
+    display: flex;
+  }
+}

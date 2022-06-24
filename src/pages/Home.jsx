@@ -5,6 +5,7 @@ import Footer from '../components/footer/footer';
 import Header from '../components/header/Header';
 import Hero from '../components/hero/Hero';
 import ContactForm from '../components/contact/ContactForm';
+import Plans from '../components/plans/Plans';
 
 export default function home() {
   return (
@@ -13,6 +14,7 @@ export default function home() {
       <Hero />
       <Brands />
       <ThaisMartins />
+      <Plans />
       <ContactForm />
       <Footer />
     </>
