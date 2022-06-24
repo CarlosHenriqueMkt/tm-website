@@ -3,12 +3,12 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  margin-top: 50px;
+  margin: 30px;
 }
 
 .brandBox {
   display: flex;
-  flex: 0 0 auto;
+  flex: 1 1 auto;
   margin: 25px;
 }
 

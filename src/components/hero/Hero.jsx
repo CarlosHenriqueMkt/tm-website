@@ -34,7 +34,7 @@ export default function Hero() {
           textAlign="center"
           className="heroBoxes"
         >
-          <Heading as="h1" size="2xl" margin="8" color="brandText.400">
+          <Heading as="h1" size="2xl" margin="5" color="brandText.400">
             Serviços Educacionais
           </Heading>
           <Text textAlign="center" padding="5" color="brandText.200">

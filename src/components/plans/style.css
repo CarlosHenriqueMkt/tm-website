@@ -16,10 +16,10 @@
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
+  flex: 1 1 auto;
 }
 
 .boxes {
-  flex: 1 1 auto;
   padding: 60px 30px;
   margin: 15px;
   text-align: center;
