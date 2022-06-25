@@ -1,4 +1,4 @@
-import { Box, Button, Heading, Text } from '@chakra-ui/react';
+import { Box, Button, Heading, Link, Text } from '@chakra-ui/react';
 import React from 'react';
 import Lottie from 'react-lottie-player';
 import Teacher from '../lotties/teacher.json';
@@ -50,7 +50,7 @@ export default function Hero() {
             color="brandText.100"
             boxShadow="rgba(0, 0, 0, 0.35) 0px 5px 15px;"
           >
-            Entre em contato!
+            <Link href="#contato"> Entre em contato! </Link>
           </Button>
         </Box>
       </Box>

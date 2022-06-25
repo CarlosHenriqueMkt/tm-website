@@ -96,7 +96,7 @@ export default function Plans() {
             <Box className="boxesIcon">
               <Icon as={FaGlobeAmericas} />
             </Box>
-            <Text className="boxesSubTitle">Pacotes on-demand</Text>
+            <Text className="boxesSubTitle">Pacotes personalizados</Text>
             <Text className="boxesParagraph">
               Aulas do básico ao avançado para jovens e adultos de todas as
               idades

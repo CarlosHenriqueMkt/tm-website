@@ -10,6 +10,7 @@ import {
   Textarea,
 } from '@chakra-ui/react';
 import { useState } from 'react';
+import { FaWhatsapp } from 'react-icons/fa';
 
 export default function Contact() {
   const [input, setInput] = useState({});
@@ -84,12 +85,13 @@ export default function Contact() {
           </FormControl>
           <Box display="flex" justifyContent="center" marginTop="24px">
             <Button
-              width="220px"
+              width="150px"
               color="white"
               colorScheme="whatsapp"
               onClick={handleSendMsg}
+              alignContent="center"
             >
-              Enviar para o Whatsapp!
+              <FaWhatsapp size="25px" /> Enviar
             </Button>
           </Box>
         </Box>

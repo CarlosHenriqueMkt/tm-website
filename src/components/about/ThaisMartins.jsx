@@ -21,7 +21,7 @@ export default function ThaisMartins() {
         justifyContent="center"
         textAlign="center"
       >
-        <Heading marginBottom="15px" color="brandText.400">
+        <Heading as="h2" marginBottom="15px" color="brandText.400">
           Thais Martins
         </Heading>
         <Text color="brandText.200" margin="5">
