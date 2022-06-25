@@ -8,7 +8,7 @@ export default function Brands() {
       <Box className="brandBox">
         <img
           alt="logotipo"
-          src="./Media/logo-chanel-512.png"
+          src="./media/logo-chanel-512.png"
           width="150px"
           height="150px"
         ></img>
@@ -16,7 +16,7 @@ export default function Brands() {
       <Box className="brandBox">
         <img
           alt="logotipo"
-          src="./Media/logo-chanel-512.png"
+          src="./media/logo-chanel-512.png"
           width="150px"
           height="150px"
         ></img>
@@ -24,7 +24,7 @@ export default function Brands() {
       <Box className="brandBox">
         <img
           alt="logotipo"
-          src="./Media/logo-chanel-512.png"
+          src="./media/logo-chanel-512.png"
           width="150px"
           height="150px"
         ></img>
@@ -32,7 +32,7 @@ export default function Brands() {
       <Box className="brandBox">
         <img
           alt="logotipo"
-          src="./Media/logo-chanel-512.png"
+          src="./media/logo-chanel-512.png"
           width="150px"
           height="150px"
         ></img>
@@ -40,7 +40,7 @@ export default function Brands() {
       <Box className="brandBox">
         <img
           alt="logotipo"
-          src="./Media/logo-chanel-512.png"
+          src="./media/logo-chanel-512.png"
           width="150px"
           height="150px"
         ></img>
@@ -48,7 +48,7 @@ export default function Brands() {
       <Box className="brandBox">
         <img
           alt="logotipo"
-          src="./Media/logo-chanel-512.png"
+          src="./media/logo-chanel-512.png"
           width="150px"
           height="150px"
         ></img>
