@@ -10,6 +10,7 @@ export default function Footer() {
         flexDirection="column"
         alignItems="center"
         justifyContent="center"
+        marginTop="25px"
       >
         <Box className="socialLinks">
           <Link href="https://www.facebook.com/ThayMart" target="_blank">

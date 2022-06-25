@@ -7,7 +7,7 @@ import './style.css';
 export default function Hero() {
   return (
     <>
-      <Box display="flex" flexWrap="wrap" id="home">
+      <Box display="flex" flexWrap="wrap" id="home" marginTop="25px">
         {/* Quadrado Esquerdo (Imagem) */}
         <Box
           flexBasis="49%"
@@ -34,7 +34,7 @@ export default function Hero() {
           textAlign="center"
           className="heroBoxes"
         >
-          <Heading as="h1" size="2xl" margin="5" color="brandText.400">
+          <Heading as="h1" fontSize="32px" color="brandText.400">
             Serviços Educacionais
           </Heading>
           <Text textAlign="center" padding="5" color="brandText.200">

@@ -10,7 +10,7 @@ export default function ThaisMartins() {
       flexWrap="wrap"
       alignItems="center"
       justifyContent="center"
-      marginTop="100px"
+      marginTop="50px"
       id="sobre"
     >
       <Box
