@@ -7,10 +7,10 @@ import './style.css';
 export default function Hero() {
   return (
     <>
-      <Box display="flex" flexWrap="wrap" id="home" marginTop="25px">
+      <Box className="heroContainer" id="home">
         {/* Quadrado Esquerdo (Imagem) */}
         <Box
-          flexBasis="49%"
+          flexBasis="50%"
           display="flex"
           alignItems="center"
           justifyContent="center"
@@ -26,7 +26,7 @@ export default function Hero() {
 
         {/* Quadrado Direito (H1 + Texto auxiliar + CTA) */}
         <Box
-          flexBasis="49%"
+          flexBasis="50%"
           display="flex"
           flexDirection="column"
           alignItems="center"
