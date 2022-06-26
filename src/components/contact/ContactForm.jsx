@@ -47,7 +47,7 @@ export default function Contact() {
         <Text as="p" margin="8px 0 16px" textAlign="center">
           Se preferir entrar em contato via email:
           <br />
-          <Link href="mailto:thaisinha.ib@gmail.com">
+          <Link as="a" href="mailto:thaisinha.ib@gmail.com">
             thaisinha.ib@gmail.com
           </Link>
         </Text>
