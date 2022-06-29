@@ -8,7 +8,7 @@ export default function header() {
     <header>
       <div className="container">
         <div className="logoContainer">
-          <img src="./media/tm-nobg.png" alt="logo" />
+          <img src="./media/circle-tm-nobg.webp" alt="logo" />
         </div>
         <nav className="navMenu">
           <MenuLinks />

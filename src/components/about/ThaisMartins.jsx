@@ -1,4 +1,4 @@
-import { Box, Button, Heading, Text } from '@chakra-ui/react';
+import { Box, Button, Heading, Link, Text } from '@chakra-ui/react';
 import Lottie from 'react-lottie-player';
 import Thais from '../lotties/Thais.json';
 import React from 'react';
@@ -37,14 +37,21 @@ export default function ThaisMartins() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
           gravidatellus odio.
         </Text>
-        <Button
-          margin="5"
-          colorScheme="whatsapp"
-          color="brandText.100"
-          boxShadow="rgba(0, 0, 0, 0.35) 0px 5px 15px;"
+        <Link
+          as="a"
+          href="https://www.linkedin.com/in/thais-martins-1116a7206/"
+          textDecoration="none"
+          target="_blank"
         >
-          Currículo completo!
-        </Button>
+          <Button
+            margin="5"
+            colorScheme="whatsapp"
+            color="brandText.100"
+            boxShadow="rgba(0, 0, 0, 0.35) 0px 5px 15px;"
+          >
+            Currículo completo!
+          </Button>
+        </Link>
       </Box>
       <Box
         flexBasis="30%"

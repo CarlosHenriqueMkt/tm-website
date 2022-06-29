@@ -39,7 +39,7 @@ export default function Contact() {
   }
 
   return (
-    <Box minHeight="50vh" id="contato" marginTop="50px" marginBottom="50px">
+    <Box minHeight="50vh" id="contato" marginTop="100px" marginBottom="50px">
       <Box textAlign="center" padding="12px 0" marginBottom="32px">
         <Text as="h2" textAlign="center" fontSize="3xl">
           Entre em contato!
